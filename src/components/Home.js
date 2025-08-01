@@ -12,7 +12,7 @@ const Home = () => {
     >
       <div className="bg-black bg-opacity-50 p-6 rounded-lg">
         <img
-          src="disha.jpg"
+          src="profile.jpg"
           alt="Disha Acharya"
           loading="lazy"
           className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6 object-cover"
