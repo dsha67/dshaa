@@ -10,6 +10,8 @@ const Navbar = () => (
         <a href="#projects" className="hover:text-cyan-400 transition-colors duration-300">Projects</a>
         <a href="#skills" className="hover:text-cyan-400 transition-colors duration-300">Skills</a>
         <a href="#contact" className="hover:text-cyan-400 transition-colors duration-300">Contact</a>
+        <a href="#footer" className="hover:text-cyan-400 transition-colors duration-300">Footer</a>
+
       </div>
     </div>
   </nav>
