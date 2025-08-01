@@ -10,15 +10,20 @@ const Home = () => {
         backgroundImage: "url('https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif')"
       }}
     >
+      {/* Overlay box */}
       <div className="bg-black bg-opacity-50 p-6 rounded-lg">
         <img
-          src="profile.jpg"
+          src="/profile.jpg" // Make sure this image is in your public folder
           alt="Disha Acharya"
           loading="lazy"
           className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6 object-cover"
         />
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Disha Acharya</h1>
-        <p className="text-lg md:text-xl">Web Developer | Designer | Creator</p>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          Hi, I'm Disha Acharya
+        </h1>
+        <p className="text-lg md:text-xl">
+          Web Developer | Designer | Creator
+        </p>
       </div>
 
       {/* Scroll indicator */}
