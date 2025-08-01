@@ -5,6 +5,7 @@ const Navbar = () => (
     <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
       <h1 className="text-xl font-bold tracking-wide">Welcome</h1>
       <div className="space-x-6 text-sm sm:text-base">
+        <a href="#about" className="hover:text-cyan-400 transition-colors duration-300">Home</a>
         <a href="#about" className="hover:text-cyan-400 transition-colors duration-300">About</a>
         <a href="#projects" className="hover:text-cyan-400 transition-colors duration-300">Projects</a>
         <a href="#skills" className="hover:text-cyan-400 transition-colors duration-300">Skills</a>
